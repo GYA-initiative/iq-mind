@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IQ MIND – درّب عقلك</title>
+<meta name="description" content="IQ MIND – تطبيق تدريب عقلي مجاني بالعربية: تدريبات بالأنماط والأشكال والأعداد في ٦ مستويات متدرجة، اختبارات بوقت، وإحصائيات وإنجازات تتابع تقدمك يومًا بيوم.">
+<meta property="og:title" content="IQ MIND – درّب عقلك">
+<meta property="og:description" content="تدريبات ذكاء بالأنماط والأشكال والأعداد، بمستويات متدرجة واختبارات بوقت وإحصائيات لتقدمك.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#6d4aff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%236d4aff'/><text x='32' y='43' font-size='24' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'>IQ</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f5fb;--card:#fff;--tx:#1b1b30;--mu:#6a6a86;--pr:#6d4aff;--bt:#fff;--ac:#0fb5a8;--bd:#e0e0ee;--ok:#16a34a;--no:#dc2626;--sh:rgba(40,30,90,.08);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1128;--card:#171c3d;--tx:#eef0ff;--mu:#9aa0c8;--pr:#9b82ff;--bt:#14102e;--ac:#2dd4bf;--bd:#2a3166;--ok:#4ade80;--no:#f87171;--sh:rgba(0,0,0,.3)}}
+:root[data-theme="dark"]{--bg:#0d1128;--card:#171c3d;--tx:#eef0ff;--mu:#9aa0c8;--pr:#9b82ff;--bt:#14102e;--ac:#2dd4bf;--bd:#2a3166;--ok:#4ade80;--no:#f87171;--sh:rgba(0,0,0,.3)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);height:100%}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:'Cairo','Segoe UI',Tahoma,sans-serif;line-height:1.7;min-height:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--bg);display:flex;justify-content:space-between;align-items:center;padding:10px 16px;border-bottom:1px solid var(--bd)}
+.logo{font-weight:800;font-size:22px;letter-spacing:.5px}.logo b{color:var(--pr)}
+#th{background:none;border:1px solid var(--bd);color:var(--tx);border-radius:20px;padding:4px 14px;font:inherit;font-size:13px;cursor:pointer}
+main{max-width:720px;margin:0 auto;padding:16px 16px 96px}
+nav{position:fixed;bottom:0;inset-inline:0;z-index:9;background:var(--card);border-top:1px solid var(--bd);display:flex;padding-bottom:env(safe-area-inset-bottom,0px)}
+nav a{flex:1;text-align:center;padding:12px 2px;font-size:13px;font-weight:600;color:var(--mu);text-decoration:none}
+nav a.on{color:var(--pr);box-shadow:inset 0 3px 0 var(--pr)}
+@media(min-width:900px){nav{inset:0 0 0 auto;width:190px;flex-direction:column;justify-content:flex-start;padding-top:70px;border-top:0;border-inline-start:1px solid var(--bd)}nav a{text-align:start;padding:12px 20px;font-size:15px}nav a.on{box-shadow:inset -3px 0 0 var(--pr)}main{margin-inline:0 190px;max-width:none;padding-inline:max(16px,calc((100% - 720px)/2))}}
+h1{font-size:26px;margin:4px 0}h2{font-size:19px;margin:0 0 6px}p{margin:4px 0}.mu{color:var(--mu);font-size:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:16px;margin-bottom:12px;box-shadow:0 2px 10px var(--sh)}
+.btn{display:inline-block;background:var(--pr);color:var(--bt);border:0;border-radius:12px;padding:11px 20px;font:inherit;font-weight:700;cursor:pointer;margin:4px 0}
+.btn.g{background:none;color:var(--pr);border:1px solid var(--bd)}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:10px}.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.st{text-align:center;padding:12px 6px;margin:0}.st b{display:block;font-size:22px}.st span{font-size:12px;color:var(--mu)}
+.bar{height:8px;background:var(--bd);border-radius:8px;overflow:hidden;margin:6px 0}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--pr),var(--ac));border-radius:8px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.lv.off{opacity:.55}.lv .btn{margin-top:8px}
+.top{display:flex;justify-content:space-between;align-items:center}.tm{font-size:24px;font-weight:800;direction:ltr}.tm.warn{color:var(--no)}
+.q h2{text-align:center}.stim{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;margin:14px 0;direction:ltr}
+.it{text-align:center}.it small{display:block;color:var(--mu)}
+.qm{width:34px;height:34px;display:flex;align-items:center;justify-content:center;border:2px dashed var(--pr);border-radius:8px;font-weight:800;color:var(--pr)}
+.mx{display:grid;grid-template-columns:repeat(3,56px);gap:4px}.mx>div{width:56px;height:56px;border:1px solid var(--bd);border-radius:8px;display:flex;align-items:center;justify-content:center}
+.num{font-size:26px;font-weight:800;letter-spacing:1px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+.opt{background:var(--card);border:2px solid var(--bd);border-radius:14px;min-height:78px;display:flex;align-items:center;justify-content:center;font:inherit;font-size:20px;font-weight:800;color:var(--tx);cursor:pointer}
+.opt:disabled{opacity:1;cursor:default}.opt.sel{border-color:var(--pr)}.opt.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 14%,var(--card))}.opt.no{border-color:var(--no);background:color-mix(in srgb,var(--no) 14%,var(--card))}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.chip{width:34px;height:34px;border-radius:50%;border:1px solid var(--bd);background:var(--card);color:var(--tx);font:inherit;font-size:13px;cursor:pointer}.chip.a{background:var(--pr);color:var(--bt);border-color:var(--pr)}.chip.c{outline:2px solid var(--ac)}
+.big{font-size:56px;font-weight:800;color:var(--pr);line-height:1.2}.c{text-align:center}
+.okt{border-color:var(--ok)}.not{border-color:var(--no)}
+.bd{opacity:.4}.bd.on{opacity:1;border-color:var(--ac)}
+:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+</style>
+</head>
+<body>
+<header><div class="logo">IQ <b>MIND</b></div><button id="th" onclick="theme()">الوضع الليلي</button></header>
+<main id="m"></main>
+<nav id="nv"><a href="#home">الرئيسية</a><a href="#levels">التدريب</a><a href="#tests">الاختبارات</a><a href="#stats">إحصائياتي</a><a href="#badges">الإنجازات</a></nav>
+<script>
+const $=s=>document.querySelector(s),R=(a,b)=>a+Math.floor(Math.random()*(b-a+1)),P=a=>a[R(0,a.length-1)];
+const shf=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=R(0,i);[a[i],a[j]]=[a[j],a[i]]}return a};
+const fmt=s=>String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');
+let store={xp:0,best:{},hist:[],days:[]};
+try{Object.assign(store,JSON.parse(localStorage.getItem('iqmind')||'{}'))}catch(e){}
+const save=()=>{try{localStorage.setItem('iqmind',JSON.stringify(store))}catch(e){}};
+/* theme */
+const isDark=()=>{const t=document.documentElement.dataset.theme;return t?t=='dark':matchMedia('(prefers-color-scheme:dark)').matches};
+function paintTh(){$('#th').textContent=isDark()?'الوضع النهاري':'الوضع الليلي'}
+function theme(){const t=isDark()?'light':'dark';document.documentElement.dataset.theme=t;try{localStorage.setItem('iqtheme',t)}catch(e){}paintTh()}
+try{const t=localStorage.getItem('iqtheme');if(t)document.documentElement.dataset.theme=t}catch(e){}
+/* shapes */
+const COL=['#7c5cff','#14b8a6','#f59e0b','#ef4444','#3b82f6'],T=['c','q','t','d','p','s'];
+const SH={c:'<circle cx="24" cy="24" r="17"/>',q:'<rect x="8" y="8" width="32" height="32"/>',t:'<polygon points="24,6 42,40 6,40"/>',d:'<polygon points="24,5 43,24 24,43 5,24"/>',p:'<polygon points="24,5 43,19 36,41 12,41 5,19"/>',s:'<polygon points="24,4 30,18 44,19 33,29 36,43 24,35 12,43 15,29 4,19 18,18"/>'};
+const S=(t,c,s=36,r=0)=>`<svg viewBox="0 0 48 48" width="${s}" height="${s}"><g fill="${c}" transform="rotate(${r} 24 24)">${SH[t]}</g></svg>`;
+const F=(r,m,c)=>`<svg viewBox="0 0 48 48" width="54" height="54"><path d="M14,6H34V16H24V22H32V30H24V42H14Z" fill="${c}" transform="${m?'translate(48 0) scale(-1 1) ':''}rotate(${r} 24 24)"/></svg>`;
+const N=x=>`<span dir="ltr">${x}</span>`;
+function mk(p,v,c,w,e){const set=[c];for(const x of w)if(!set.includes(x))set.push(x);const o=shf(set.slice(0,4));return{p,v,o,a:o.indexOf(c),e}}
+/* generators */
+function gOdd(lv){const b=P(T);let o;do{o=P(T)}while(o==b);const c=P(COL),k=R(0,3),mode=lv<=2?0:lv==3?1:2;
+ let oc=P(COL.filter(x=>x!=c));const it=[];
+ for(let i=0;i<4;i++){const odd=i==k;let h;
+  if(mode==0)h=odd?S(o,c):S(b,c);else if(mode==1)h=odd?S(b,oc):S(b,c);else h=S(odd?o:b,P(COL));
+  it.push(`<div class="it">${h}<small>${i+1}</small></div>`)}
+ return{p:'أي رقم يمثل الشكل المختلف عن البقية؟',v:it.join(''),o:['1','2','3','4'],a:k,e:`الشكل رقم ${k+1} هو الوحيد المختلف في ${mode==1?'اللون':'الشكل'}، أما الباقي فمتشابه.`}}
+const GC=(a,b)=>b?GC(b,a%b):a,LCM=(a,b)=>a*b/GC(a,b),SQ=[[2,1],[3,1],[2,3],[3,2],[4,2],[3,4]];
+function gSeq(lv){const [a,b]=SQ[lv-1],ar=shf(T).slice(0,a),co=shf(COL).slice(0,b),L=LCM(a,b)+2,it=i=>[ar[i%a],co[i%b]];
+ const v=[];for(let i=0;i<L;i++)v.push(S(...it(i),34));v.push('<div class="qm">?</div>');
+ const [t,c]=it(L),oc=P(COL.filter(x=>x!=c)),ot=P(T.filter(x=>x!=t));
+ return mk('أي شكل يكمل النمط؟',v.join(''),S(t,c,44),[S(t,oc,44),S(ot,c,44),S(ot,oc,44),S(P(T),P(COL),44),S(P(T),P(COL),44)],`النمط يتكرر كل ${LCM(a,b)} ${LCM(a,b)<=2?'عنصرين':'عناصر'}، فيعود الشكل واللون إلى ما كانا عليه.`)}
+const NG=[
+ ()=>{const a=R(1,12),d=R(2,7);return[Array.from({length:6},(_,i)=>a+d*i),`كل عدد يزيد عن السابق بمقدار ${d}.`]},
+ ()=>{const a=R(1,3),r=2;return[Array.from({length:6},(_,i)=>a*r**i),'كل عدد يساوي السابق مضروبًا في 2.']},
+ ()=>{const o=R(0,4);return[Array.from({length:6},(_,i)=>(i+1+o)**2),'الأعداد هي مربعات أعداد متتالية.']},
+ ()=>{const a=R(1,10);return[Array.from({length:6},(_,i)=>a+i*(i+1)/2),'الفرق بين كل عددين يزيد بمقدار 1 في كل خطوة.']},
+ ()=>{const s=R(1,9),a=R(4,9),b=R(1,a-1);return[Array.from({length:6},(_,i)=>s+Math.ceil(i/2)*a-Math.floor(i/2)*b),`نضيف ${a} ثم نطرح ${b} بالتناوب.`]},
+ ()=>{const r=[R(1,4),R(2,6)];for(let i=2;i<6;i++)r.push(r[i-1]+r[i-2]);return[r,'كل عدد هو مجموع العددين اللذين قبله.']},
+ ()=>{const r=[R(1,4)];for(let i=1;i<6;i++)r.push(r[i-1]*2+1);return[r,'نضرب في 2 ثم نضيف 1 في كل خطوة.']}];
+const NP=[0,[0],[0,1],[1,2,3],[3,4,2],[4,5,6],[4,5,6,3]];
+function gNum(lv){const [t,e]=NG[P(NP[lv])](),x=t[5];
+ return mk('ما العدد التالي في المتتالية؟',`<div class="num" dir="ltr">${t.slice(0,5).join(', ')}, ?</div>`,N(x),[x+1,x-1,x+2,x-2,x+R(3,9),x+10].map(N),e)}
+function gMat(lv){const sh=shf(T).slice(0,3),co=shf(COL).slice(0,3),sz=[26,32,40],big=lv>=5;
+ const cell=(r,c)=>({t:sh[(r+c)%3],c:co[c],s:big?sz[r]:34}),dr=x=>S(x.t,x.c,x.s);
+ let g='';for(let r=0;r<3;r++)for(let c=0;c<3;c++)g+=r==2&&c==2?'<div><span class="qm">?</span></div>':`<div>${dr(cell(r,c))}</div>`;
+ const a=cell(2,2),w=[{...a,t:sh[0]},{...a,t:sh[2]},{...a,c:co[0]},{...a,c:co[1]},{...a,s:sz[0]}].map(x=>S(x.t,x.c,44*x.s/(big?40:34)));
+ return mk('أي شكل يكمل المصفوفة؟',`<div class="mx">${g}</div>`,S(a.t,a.c,44*a.s/(big?40:34)),w,`في كل صف تظهر الأشكال الثلاثة بترتيب مزاح، ولكل عمود لون ثابت${big?'، وحجم الشكل ثابت في كل صف':''}.`)}
+function gRot(lv){const a=lv>=5?P([90,180,270]):90,c=P(COL),oth=[90,180,270].filter(x=>x!=a);
+ return mk(`أي شكل يمثل الشكل الأصلي بعد تدويره ${a}° في اتجاه عقارب الساعة؟`,F(0,0,c),F(a,0,c),[F(oth[0],0,c),F(oth[1],0,c),F(a,1,c)],'التدوير لا يقلب الشكل، أما الخيار المعكوس فهو انعكاس وليس تدويرًا.')}
+const G={o:gOdd,s:gSeq,n:gNum,m:gMat,r:gRot},K={o:'الأنماط البصرية',s:'الأنماط البصرية',n:'التفكير العددي',m:'التفكير المنطقي',r:'التفكير المكاني'};
+const PL=[0,['o','s','n'],['o','s','n'],['s','n','m'],['m','r','n','s'],['m','r','n','s','o'],['o','s','n','m','r']];
+function gen(lv){const t=P(PL[lv]),q=G[t](lv);q.k=K[t];return q}
+/* data */
+const LV=[['المبتدئ','سهل','الشكل المختلف والأنماط البسيطة'],['المتعلم','سهل – متوسط','تتابع الأشكال والمتتاليات'],['المتوسط','متوسط','المصفوفات 3×3 والعلاقات المنطقية'],['المتقدم','صعب','التدوير والأنماط متعددة القواعد'],['المحترف','خبير','أنماط متعددة المتغيرات'],['التحدي النهائي','ماستر','دمج كل المهارات']];
+const TS=[['اختبار سريع',10,5],['اختبار متوسط',20,15],['اختبار متقدم',30,25],['اختبار شامل',40,35]];
+const iso=d=>`${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;
+function streak(){const ds=new Set(store.days);let n=0,d=new Date();if(!ds.has(iso(d)))d.setDate(d.getDate()-1);while(ds.has(iso(d))){n++;d.setDate(d.getDate()-1)}return n}
+const open=n=>n==1||(store.best[n-1]||0)>=70,nextLv=()=>{for(let n=1;n<=6;n++)if((store.best[n]||0)<70)return n;return 6};
+const BG=[['أول خطوة','أكمل أول تدريب',s=>s.hist.length>=1],['100 نقطة خبرة','اجمع 100 XP',s=>s.xp>=100],['المستوى المتوسط','افتح المستوى الثالث',s=>(s.best[2]||0)>=70],['دقة عالية','حقق 90% في جلسة واحدة',s=>s.hist.some(h=>h.acc>=90)],['ثلاثة أيام','تدرّب 3 أيام متتالية',s=>streak()>=3],['أول اختبار','أكمل اختبارًا بوقت',s=>s.hist.some(h=>h.mode=='test')]];
+const nB=()=>BG.filter(b=>b[2](store)).length;
+/* quiz engine */
+let Q=null,LR=null,tm=null;
+function startL(lv){if(!open(lv))return;Q={mode:'train',lv,n:8,limit:0,name:'',qs:Array.from({length:8},()=>gen(lv)),ans:Array(8).fill(null),t:Array(8).fill(0),i:0,t0:Date.now(),qt:Date.now()};location.hash='quiz'}
+function startT(k){const [name,n,limit]=TS[k];Q={mode:'test',lv:0,n,limit,name,qs:Array.from({length:n},(_,i)=>gen(1+Math.floor(i*6/n))),ans:Array(n).fill(null),t:Array(n).fill(0),i:0,t0:Date.now(),qt:Date.now()};location.hash='quiz'}
+function leave(){Q.t[Q.i]+=(Date.now()-Q.qt)/1000;Q.qt=Date.now()}
+function pick(i){if(Q.mode=='train'){if(Q.ans[Q.i]!==null)return;Q.ans[Q.i]=i;leave()}else Q.ans[Q.i]=i;render()}
+function nxt(){if(Q.i+1<Q.n){if(Q.mode=='test')leave();Q.i++;Q.qt=Date.now();render()}else finish()}
+function jump(i){leave();Q.i=i;render()}
+function tick(){if(!Q||!$('#tm'))return;const e=Math.floor((Date.now()-Q.t0)/1000);if(Q.limit){const r=Q.limit*60-e;if(r<=0){finish();return}$('#tm').textContent=fmt(r);$('#tm').classList.toggle('warn',r<60)}else $('#tm').textContent=fmt(e)}
+function finish(){if(!Q)return;clearInterval(tm);const q=Q;Q=null;let c=0;const sk={};
+ q.qs.forEach((x,i)=>{const ok=q.ans[i]===x.a;c+=ok?1:0;(sk[x.k]=sk[x.k]||[0,0])[1]++;if(ok)sk[x.k][0]++});
+ const sec=Math.max(1,Math.min(Math.round((Date.now()-q.t0)/1000),q.limit?q.limit*60:1e9)),acc=Math.round(c/q.n*100);
+ const prev=store.hist.filter(h=>h.mode==q.mode&&(q.mode=='test'?h.n==q.n:h.lv==q.lv)).slice(-1)[0],before=nB(),wasOpen=q.lv<6&&open(q.lv+1);
+ const xp=c*10+(q.mode=='train'&&acc>=70?20:0);store.xp+=xp;
+ if(q.mode=='train')store.best[q.lv]=Math.max(store.best[q.lv]||0,acc);
+ store.hist.push({mode:q.mode,lv:q.lv,n:q.n,name:q.name,c,acc,sec,sk});store.hist=store.hist.slice(-40);
+ const td=iso(new Date());if(!store.days.includes(td))store.days.push(td);store.days=store.days.slice(-60);save();
+ LR={...q,c,acc,sec,sk,xp,prev:prev?prev.acc:null,nb:nB()-before,unl:q.mode=='train'&&q.lv<6&&!wasOpen&&open(q.lv+1)};
+ location.hash='result'}
+/* views */
+const bars=sk=>Object.entries(sk).map(([k,v])=>{const p=Math.round(v[0]/v[1]*100);return`<div class="row"><span>${k}</span><b>${p}%</b></div><div class="bar"><i style="width:${p}%"></i></div>`}).join('');
+const V={
+home(){const lv=Math.floor(store.xp/100)+1,l=nextLv(),last=store.hist.slice(-1)[0];
+ return`<h1>درّب عقلك.. اكتشف قدراتك.. وتطور كل يوم.</h1><p class="mu">تدريبات بالأشكال والأنماط والأعداد، بمستويات تتدرج معك خطوة بخطوة.</p>
+ <div class="g3" style="margin:14px 0"><div class="card st"><b>${lv}</b><span>مستواك</span></div><div class="card st"><b>${store.xp}</b><span>نقاط الخبرة</span></div><div class="card st"><b>${streak()}</b><span>أيام متتالية</span></div></div>
+ <div class="bar"><i style="width:${store.xp%100}%"></i></div><p class="mu">${100-store.xp%100} نقطة للوصول إلى المستوى ${lv+1}</p>
+ <div class="card"><h2>${store.hist.length?'تابع من حيث توقفت':'ابدأ أول تدريب'}</h2><p class="mu">المستوى ${l} – ${LV[l-1][0]}: ${LV[l-1][2]}</p><button class="btn" onclick="startL(${l})">ابدأ التدريب</button> <button class="btn g" onclick="startT(0)">اختبار سريع</button></div>
+ ${last?`<div class="card"><h2>آخر نتيجة</h2><div class="row"><span>${last.mode=='test'?last.name:'المستوى '+last.lv}</span><b>${last.acc}%</b></div></div>`:''}
+ <div class="card"><h2>عن IQ MIND</h2><p class="mu">تطبيق تدريب عقلي مجاني بالعربية، يعمل بالكامل على جهازك دون تسجيل أو إنترنت بعد أول تحميل. يدرّب أربع مهارات: الأنماط البصرية، والتفكير العددي، والتفكير المنطقي، والتفكير المكاني، عبر ٦ مستويات تتدرج من المبتدئ إلى التحدي النهائي، و٤ اختبارات بوقت تقيس سرعتك ودقتك.</p><p class="mu">تقدّمك وإحصائياتك تُحفَظ على جهازك فقط. النتائج هنا للتدريب والتطوير الشخصي، وليست قياسًا نفسيًا معتمدًا لنسبة الذكاء.</p></div>`},
+levels(){return`<h1>مسار التدريب</h1><p class="mu">أكمل المستوى بنسبة 70% أو أكثر لفتح التالي. يمكنك إعادة أي مستوى في أي وقت.</p><div style="margin-top:12px">`+LV.map((x,i)=>{const n=i+1,o=open(n),b=store.best[n];
+ return`<div class="card lv ${o?'':'off'}"><div class="row"><h2>المستوى ${n} – ${x[0]}</h2><span class="mu">${x[1]}</span></div><p class="mu">${x[2]}</p>${b!=null?`<div class="bar"><i style="width:${b}%"></i></div><p class="mu">أفضل نتيجة: ${b}%</p>`:''}${o?`<button class="btn" onclick="startL(${n})">${b!=null?'أعد التدريب':'ابدأ'}</button>`:'<p class="mu">يُفتح بعد تحقيق 70% في المستوى السابق.</p>'}</div>`}).join('')+'</div>'},
+tests(){return`<h1>الاختبارات بوقت</h1><p class="mu">أسئلة تتدرج في الصعوبة، وتُسلَّم تلقائيًا عند انتهاء الوقت. يمكنك التنقل بين الأسئلة ومراجعتها قبل التسليم.</p><div style="margin-top:12px">`+TS.map((t,i)=>`<div class="card row"><div><h2>${t[0]}</h2><span class="mu">${t[1]} سؤالًا – ${t[2]} دقائق</span></div><button class="btn" onclick="startT(${i})">ابدأ</button></div>`).join('')+'</div><p class="mu">هذه الاختبارات للتدريب فقط، وليست قياسًا نفسيًا معتمدًا لنسبة الذكاء.</p>'},
+quiz(){const q=Q.qs[Q.i],tst=Q.mode=='test',a=Q.ans[Q.i],lock=!tst&&a!==null,done=Q.ans.filter(x=>x!==null).length;
+ let h=`<div class="top"><div><b>${tst?Q.name:'المستوى '+Q.lv+' – '+LV[Q.lv-1][0]}</b><div class="mu">السؤال ${Q.i+1} من ${Q.n}</div></div><div class="tm" id="tm"></div></div><div class="bar"><i style="width:${done/Q.n*100}%"></i></div>
+ <div class="card q"><h2>${q.p}</h2><div class="stim">${q.v}</div></div><div class="opts">`;
+ q.o.forEach((o,i)=>{let c='opt';if(lock){if(i==q.a)c+=' ok';else if(i==a)c+=' no'}else if(a===i)c+=' sel';h+=`<button class="${c}" onclick="pick(${i})" ${lock?'disabled':''}>${o}</button>`});
+ h+='</div>';
+ if(lock)h+=`<div class="card ${a==q.a?'okt':'not'}"><b>${a==q.a?'إجابة صحيحة':'إجابة خاطئة'}</b><p class="mu">${q.e}</p></div><button class="btn" onclick="nxt()">${Q.i+1<Q.n?'السؤال التالي':'عرض النتيجة'}</button>`;
+ if(tst){h+=`<div class="chips">`+Q.qs.map((_,i)=>`<button class="chip ${Q.ans[i]!==null?'a':''} ${i==Q.i?'c':''}" onclick="jump(${i})">${i+1}</button>`).join('')+`</div><p class="mu">أجبت عن ${done} من ${Q.n}${done<Q.n?' – الأسئلة غير المجابة بدون لون في الأرقام أعلاه':''}.</p>
+ <div class="row">${Q.i>0?`<button class="btn g" onclick="jump(${Q.i-1})">السابق</button>`:'<span></span>'}${Q.i+1<Q.n?'<button class="btn g" onclick="nxt()">التالي</button>':'<span></span>'}</div><button class="btn" onclick="finish()">تسليم الاختبار</button>`}
+ return h},
+result(){const r=LR,w=r.n-r.c,msg=r.acc>=90?'أداء ممتاز':r.acc>=70?'أداء جيد':r.acc>=50?'تحتاج مزيدًا من التدريب':'ابدأ بخطوات أبطأ وكرّر المحاولة',weak=Object.entries(r.sk).filter(([,v])=>v[0]/v[1]<.6).map(x=>x[0]);
+ return`<div class="card c"><p class="mu">${r.mode=='test'?r.name:'المستوى '+r.lv+' – '+LV[r.lv-1][0]}</p><div class="big">${r.acc}%</div><p class="mu">نسبة الإجابات الصحيحة</p><h2>${msg}</h2>${r.unl?'<p><b>تم فتح المستوى التالي</b></p>':''}${r.nb>0?'<p><b>حصلت على إنجاز جديد</b></p>':''}</div>
+ <div class="g3"><div class="card st"><b>${r.c}</b><span>صحيحة</span></div><div class="card st"><b>${w}</b><span>خاطئة</span></div><div class="card st"><b>+${r.xp}</b><span>نقاط خبرة</span></div></div>
+ <div class="g2"><div class="card st"><b>${(r.sec/r.n).toFixed(1)} ث</b><span>متوسط الوقت للسؤال</span></div><div class="card st"><b>${fmt(r.sec)}</b><span>الوقت الإجمالي</span></div></div>
+ <div class="card"><h2>تحليل المهارات</h2>${bars(r.sk)}${weak.length?`<p class="mu">تحتاج تدريبًا أكثر في: ${weak.join('، ')}.</p>`:'<p class="mu">أداؤك متوازن في كل المهارات.</p>'}</div>
+ ${r.prev!=null?`<div class="card"><h2>مقارنة بالمرة السابقة</h2><p>${r.prev}% ثم ${r.acc}% – ${r.acc>r.prev?'تحسّن واضح':r.acc==r.prev?'نفس المستوى':'انخفاض بسيط، حاول مجددًا'}</p></div>`:''}
+ ${r.mode=='test'?'<p class="mu">اختبار تدريبي وليس قياسًا نفسيًا معتمدًا لنسبة الذكاء.</p>':''}
+ ${(()=>{const wr=r.qs.map((x,i)=>({x,i})).filter(({x,i})=>r.ans[i]!==x.a);return wr.length?`<div class="card"><h2>مراجعة الأخطاء (${wr.length})</h2>`+wr.map(({x})=>`<div style="border-top:1px solid var(--bd);padding:10px 0"><p><b>${x.p}</b></p><div class="stim">${x.v}</div><p class="mu">الإجابة الصحيحة: ${x.o[x.a]}</p><p class="mu">${x.e}</p></div>`).join('')+'</div>':''})()}
+ <div class="row"><button class="btn" onclick="${r.mode=='test'?'startT('+TS.findIndex(t=>t[1]==r.n)+')':'startL('+r.lv+')'}">أعد المحاولة</button> <a class="btn g" href="#${r.mode=='test'?'tests':'levels'}" style="text-decoration:none">رجوع</a> <button class="btn g" onclick="share()">شارك نتيجتك</button></div>`},
+stats(){const h=store.hist;if(!h.length)return'<h1>إحصائياتي</h1><div class="card"><p>لا توجد نتائج بعد. أكمل تدريبًا أو اختبارًا لتظهر إحصائياتك هنا.</p><a class="btn" href="#levels" style="text-decoration:none">ابدأ التدريب</a></div>';
+ const sk={};h.forEach(x=>Object.entries(x.sk).forEach(([k,v])=>{(sk[k]=sk[k]||[0,0]);sk[k][0]+=v[0];sk[k][1]+=v[1]}));const avg=Math.round(h.reduce((a,b)=>a+b.acc,0)/h.length);
+ return`<h1>إحصائياتي</h1><div class="g3"><div class="card st"><b>${h.length}</b><span>جلسات</span></div><div class="card st"><b>${avg}%</b><span>متوسط الدقة</span></div><div class="card st"><b>${Math.max(...h.map(x=>x.acc))}%</b><span>أفضل نتيجة</span></div></div>
+ <div class="card"><h2>نقاط القوة والضعف</h2>${bars(sk)}</div><div class="card"><h2>آخر الجلسات</h2>${h.slice(-8).reverse().map(x=>`<div class="row"><span>${x.mode=='test'?x.name:'المستوى '+x.lv}</span><span class="mu">${x.c}/${x.n}</span><b>${x.acc}%</b></div>`).join('')}</div>`},
+badges(){return`<h1>الإنجازات</h1><p class="mu">${nB()} من ${BG.length} – كل إجابة صحيحة تمنحك 10 نقاط خبرة.</p><div class="g2" style="margin-top:12px">`+BG.map(b=>`<div class="card bd ${b[2](store)?'on':''}"><h2>${b[0]}</h2><p class="mu">${b[1]}</p><b>${b[2](store)?'مكتمل':'لم يكتمل'}</b></div>`).join('')+'</div>'}};
+function render(){clearInterval(tm);const v=(location.hash||'#home').slice(1),f=V[v]||V.home;
+ if((v=='quiz'&&!Q)||(v=='result'&&!LR)){location.hash='home';return}
+ if(Q&&v!='quiz'){Q=null}
+ $('#m').innerHTML=f();document.querySelectorAll('#nv a').forEach(a=>a.classList.toggle('on',a.hash=='#'+({quiz:'levels',result:'levels'}[v]||v)));
+ if(v=='quiz'){tm=setInterval(tick,500);tick()}window.scrollTo(0,0)}
+function share(){if(!LR)return;const t='نتيجتي في IQ MIND: '+LR.acc+'% – درّب عقلك واكتشف قدراتك! '+location.origin+location.pathname;if(navigator.share){navigator.share({title:'IQ MIND',text:t}).catch(()=>{})}else{try{navigator.clipboard.writeText(t);alert('تم نسخ نتيجتك والرابط، شاركها مع أصدقائك')}catch(e){}}}
+addEventListener('hashchange',render);paintTh();render();
+</script>
+</body>
+</html>
